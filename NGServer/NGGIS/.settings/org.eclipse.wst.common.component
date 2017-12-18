@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NGGIS Maven Webapp">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <dependent-module archiveName="App-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/App/App">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Invoker-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Invoker/Invoker">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="HttpServer-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/HttpServer/HttpServer">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Xml-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Xml/Xml">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Logger-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Logger/Logger">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BaseService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/BaseService/BaseService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Model-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Model/Model">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Graph-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Graph/Graph">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MongoClient-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/MongoClient/MongoClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Parameter-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Parameter/Parameter">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="FeatureService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/FeatureService/FeatureService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MapService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/MapService/MapService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Dao-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Dao/Dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="QueryService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/QueryService/QueryService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SpatialAnalysisService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SpatialAnalysisService/SpatialAnalysisService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ThematicMapService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ThematicMapService/ThematicMapService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SymbolService-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SymbolService/SymbolService">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MemCache-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/MemCache/MemCache">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Geometry-1.1.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Geometry/Geometry">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="/NGGIS"/>
+        <property name="java-output-path" value="/NGGIS Maven Webapp/src/main/webapp/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>

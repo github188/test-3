@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mongo>
+	<active>false</active>
+    <mongoAddress>172.16.223.107</mongoAddress>
+    <mongoPort>27017</mongoPort>
+    <encryption>true</encryption>
+    <mongoDbName>shdwzy</mongoDbName>
+    <connectionsPerHost>100</connectionsPerHost>
+</mongo>

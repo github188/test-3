@@ -1,0 +1,6 @@
+registry=org.Invoker.rpc.protocol.RegistryProtocol
+socket=org.Invoker.rpc.protocol.InvokerProtocol
+http=org.Invoker.rpc.protocol.SpringMVCProtocol
+webservice=org.Invoker.rpc.protocol.WebServiceProtocol
+filter=org.Invoker.rpc.protocol.ProtocolFilterWrapper
+listener=org.Invoker.rpc.protocol.ProtocolListenerWrapper

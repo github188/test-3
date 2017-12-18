@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<jdbcDataSource>
+    	<driverClass>oracle.jdbc.driver.OracleDriver</driverClass>
+    	<jdbcUrl>jdbc:oracle:thin:@172.16.190.134:1521:scyw2</jdbcUrl>
+    	<user>dwzy</user>
+    	<password>dwzy</password>
+    	<active>true</active>
+	</jdbcDataSource>
+	
+	<jndiDataSource>
+		<jndiName>sggis</jndiName>
+		<resourceRef>false</resourceRef>
+		<url>t3://192.168.1.4:8089</url>
+		<initial>weblogic.jndi.WLInitialContextFactory</initial>
+		<active>false</active>
+   </jndiDataSource>
+</database>

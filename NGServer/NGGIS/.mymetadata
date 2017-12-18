@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="NGGIS Maven Webapp"
+  id="myeclipse.1457415637220"
+  context-root="/NGGIS"
+  j2ee-spec="1.7"
+  archive="NGGIS Maven Webapp.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

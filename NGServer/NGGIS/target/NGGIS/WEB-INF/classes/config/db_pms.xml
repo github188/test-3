@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+ 
+	<jdbcDataSource>
+    	<driverClass>oracle.jdbc.driver.OracleDriver</driverClass>
+    	<jdbcUrl>jdbc:oracle:thin:@10.144.15.215:1521/mcsas</jdbcUrl>
+    	<user>mg_app</user>
+    	<password>APP</password>
+    	<active>false</active>
+    	<minPoolSize></minPoolSize>
+    	<maxPoolSize></maxPoolSize>
+    	<maxAdministrativeTaskTime></maxAdministrativeTaskTime>
+    	<numHelperThreads></numHelperThreads>
+	</jdbcDataSource>
+		
+	<jndiDataSource>
+		<jndiName>sggis</jndiName>
+		<resourceRef>false</resourceRef>
+		<url>t3://192.168.1.4:8089</url>
+		<initial>weblogic.jndi.WLInitialContextFactory</initial>
+		<active>false</active>
+   </jndiDataSource>
+</database>

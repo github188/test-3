@@ -1,0 +1,2 @@
+adapter=org.Invoker.remoting.exchanger.ThreadPoolAdaptive
+cache=org.Invoker.remoting.exchanger.CacheThreadPool

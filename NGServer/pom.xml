@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>nari.platform</groupId>
+  <artifactId>NGServer</artifactId>
+  <version>1.1.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>NGServer</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+   <modules>
+    <module>Dao</module>
+    <module>App</module>
+    <module>Model</module>
+    
+    <module>Xml</module>
+    <module>NGGIS</module>
+    <module>WebService</module>
+    <module>Parameter</module>
+    <module>HttpServer</module>
+    <module>Invoker</module>
+    <module>Main</module>
+    <module>BaseService</module>
+	<module>MapService</module>
+    <module>FeatureService</module>
+    <module>ThematicMapService</module>
+    <module>SpatialAnalysisService</module>
+    <module>TopoAnalysisService</module>
+    <module>TileMapService</module>
+    <module>SymbolService</module>
+    <module>QueryService</module>
+    <module>MemCache</module>
+    <module>Geometry</module>
+    <module>NettyTransfers</module>
+    <module>Logger</module>
+    <module>Obsevation</module>
+
+    <module>MongoClient</module>
+    <module>MongoQuery</module>
+    <module>MongoUpdateService</module>
+	<module>SelfSynchronizator</module>
+	<module>DistributionTopoAnalysisService</module>
+	<module>Graph</module>
+	<module>Network</module>
+
+    
+    
+    
+  </modules> 
+</project>

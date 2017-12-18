@@ -1,0 +1,3 @@
+adaptive=org.Invoker.compiler.support.AdaptiveCompiler
+jdk=org.Invoker.compiler.support.JdkCompiler
+javassist=org.Invoker.compiler.support.JavassistCompiler

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoker>
+<!--  
+	<registry>
+    	<host>10.144.16.171</host>
+    	<port>2181</port>
+    	<protocol>registry</protocol>
+    	<cluster>failover</cluster>
+	</registry>
+	<http>
+    	<host>10.144.16.171</host>
+    	<port>8089</port>
+    	<protocol>http</protocol>
+    	<maxThreadPool>50</maxThreadPool>
+    	<minThreadPool>5</minThreadPool>
+	</http>
+	-->
+		<!-- 
+	<registry>
+    	<host>10.144.113.211</host>
+    	<port>2181</port>
+    	<protocol>registry</protocol>
+    	<cluster>failover</cluster>
+	</registry>
+	<http>
+    	<host>10.144.113.211</host>
+    	<port>8089</port>
+    	<protocol>http</protocol>
+    	<maxThreadPool>50</maxThreadPool>
+    	<minThreadPool>5</minThreadPool>
+	</http>
+	-->
+	<registry>
+    	<host>192.168.1.12</host>
+    	<port>2181</port>
+    	<protocol>registry</protocol>
+    	<cluster>failover</cluster>
+	</registry>
+	<http>
+    	<host>172.16.223.114</host>
+    	<port>8089</port>
+    	<protocol>http</protocol>
+    	<maxThreadPool>50</maxThreadPool>
+    	<minThreadPool>5</minThreadPool>
+	</http>
+
+	<webservice>
+    	<port>8088</port>
+    	<protocol>webservice</protocol>
+    	<maxThreadPool>50</maxThreadPool>
+    	<minThreadPool>5</minThreadPool>
+	</webservice>
+	<socket>
+    	<port>9000</port>
+    	<protocol>socket</protocol>
+    	<poolSize>20</poolSize>
+    	<connectTimeout>5000</connectTimeout>
+	</socket>
+</invoker>

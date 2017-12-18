@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cache>
+	<active>false</active>
+	<offsetValid>false</offsetValid>
+	<threadPoolSize>0</threadPoolSize>
+	
+	<layer>
+		<id>101000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>300000</id>
+		<filter>dydj in (22)</filter>
+		<exclude>30000005</exclude>
+	</layer>
+	<layer>
+		<id>110000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>130000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>201000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>301000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>302000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>3101000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	<layer>
+		<id>3201000</id>
+		<filter>dydj in (22)</filter>
+		<exclude></exclude>
+	</layer>
+	 
+	<field>
+		<name>oid</name>
+		<type>long</type>
+	</field>
+	<field>
+		<name>bzdx</name>
+		<type>double</type>
+	</field>
+	<field>
+		<name>bzfw</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>bznr</name>
+		<type>String</type>
+	</field>
+	<field>
+		<name>bzxszd</name>
+		<type>String</type>
+	</field>
+	<field>
+		<name>bzys</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>dhzs</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>fhdx</name>
+		<type>double</type>
+	</field>
+	<field>
+		<name>fhjd</name>
+		<type>double</type>
+	</field>
+	<field>
+		<name>plfs</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>sfbz</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>dydj</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>sbid</name>
+		<type>String</type>
+	</field>
+	<field>
+		<name>sbmc</name>
+		<type>String</type>
+	</field>
+	<field>
+		<name>sbzlx</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>int</name>
+		<type>sszrq</type>
+	</field>
+	<field>
+		<name>type</name>
+		<type>int</type>
+	</field>
+	<field>
+		<name>shape</name>
+		<type>Spatial</type>
+	</field>
+	<field>
+		<name>x</name>
+		<type>double</type>
+	</field>
+	<field>
+		<name>y</name>
+		<type>double</type>
+	</field>
+	<field>
+		<name>ssxl</name>
+		<type>int</type>
+	</field>
+	<loader>
+		<!-- <strategy>TABLE</strategy> -->   <!-- 从配置表读取 -->
+		<strategy>CONFIG</strategy>
+		<batchSize>2000</batchSize> <!-- batchSize大于0时开启批量模式，小于0时文单条记录加载 -->
+		<tableFilter>dydj in (34,35,36,37,82,83,84,85,86)</tableFilter> <!-- TABLE模式生效 -->
+		<excludeTable></excludeTable>  <!-- TABLE模式生效，不加载的图层 -->
+	</loader>
+	<index>SHAPE:SPATIAL</index>
+	<merger>false</merger>
+	<mergerFilter>dydj in (34,35,36,37,82,83,84,85,86)</mergerFilter> <!-- 合并线路的SQL条件 -->
+</cache>
